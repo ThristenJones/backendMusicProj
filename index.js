@@ -30,4 +30,10 @@ app.put('/api/songs/:id', (req, res) => {
     return res.send(updatedSong)
 })
 
+app.delete('/api/songs/:id', (req, res) => {
+    const id = req.params.id;
+    const updatedDataSet = repoContext.songs.deleteSong(id);
+    return res.send(updatedDataSet);
+});
+
 

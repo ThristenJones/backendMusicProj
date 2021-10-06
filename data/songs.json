@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Big toe",
     "description": "who cares",
     "category": "fiction",
@@ -23,7 +23,7 @@
     "releaseDate": "12/03/1965"
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Big toe",
     "description": "who cares",
     "category": "fiction",
@@ -188,12 +188,5 @@
     "artist": "The Postal Service",
     "genre": "Alternative Indie",
     "releaseDate": "02/18/2003"
-  },
-  {
-    "id": "25",
-    "name": "Big toe",
-    "description": "who cares",
-    "category": "fiction",
-    "price": "1,000"
   }
 ]
